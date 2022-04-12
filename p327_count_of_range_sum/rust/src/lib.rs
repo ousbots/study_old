@@ -51,5 +51,6 @@ mod tests {
     fn provided() {
         assert_eq!(Solution::count_range_sum(vec![-2, 5, -1], -2, 2), 3);
         assert_eq!(Solution::count_range_sum(vec![0], 0, 0), 1);
+        assert_eq!(Solution::count_range_sum(vec![0, 0], 0, 0), 3);
     }
 }
