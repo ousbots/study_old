@@ -24,10 +24,9 @@ func levelOrder(root *TreeNode) [][]int {
 			parents = parents[1:]
 		}
 
-		if len(values) > 0 {
-			results = append(results, values)
-		}
+		results = append(results, values)
 	}
+	results = results[:len(results)-1]
 
 	return results
 }
