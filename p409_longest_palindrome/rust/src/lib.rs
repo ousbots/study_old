@@ -1,4 +1,3 @@
-use std::collections::hash_map::Entry::{Occupied, Vacant};
 use std::collections::HashMap;
 
 pub struct Solution;
@@ -8,10 +7,7 @@ impl Solution {
         let mut count = 0;
 
         s.chars().for_each(|x| {
-            let entry = match letters.entry(x) {
-                Occupied(e) => e.into_mut(),
-                Vacant(e) => e.insert(0),
-            };
+            let entry = letters.entry(x).or_insert(0);
             *entry += 1;
             if *entry == 2 {
                 count += 2;
