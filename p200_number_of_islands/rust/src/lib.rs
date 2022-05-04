@@ -8,7 +8,7 @@ impl Solution {
             for x in 0..grid[y].len() {
                 if grid[y][x] == '1' {
                     count += 1;
-                    Solution::sink(&mut grid, x, y);
+                    Solution::sink(&mut grid, y, x);
                 }
             }
         }
@@ -16,12 +16,10 @@ impl Solution {
         count
     }
 
-    fn sink(grid: &mut Vec<Vec<char>>, x: usize, y: usize) {
+    fn sink(grid: &mut Vec<Vec<char>>, y: usize, x: usize) {
         let mut visit = vec![(y, x)];
 
-        while !visit.is_empty() {
-            let check = visit.pop().unwrap();
-
+        while let Some(check) = visit.pop() {
             if grid[check.0][check.1] == '1' {
                 grid[check.0][check.1] = '0';
 
