@@ -2,43 +2,29 @@ package time_based_key_value_store
 
 import "sort"
 
-type Store struct {
-	timestamps []int
-	data       map[int]string
-}
-
 type TimeMap struct {
-	data map[string]*Store
+	timestamps map[string][]int
+	values     map[string][]string
 }
 
 func Constructor() TimeMap {
-	return TimeMap{data: make(map[string]*Store)}
+	return TimeMap{timestamps: make(map[string][]int), values: make(map[string][]string)}
 }
 
 func (this *TimeMap) Set(key string, value string, timestamp int) {
-	var data *Store
-	if _, ok := this.data[key]; !ok {
-		data = &Store{data: make(map[int]string)}
-		this.data[key] = data
-	} else {
-		data = this.data[key]
-	}
-
-	data.data[timestamp] = value
-	data.timestamps = append(data.timestamps, timestamp)
+	this.timestamps[key] = append(this.timestamps[key], timestamp)
+	this.values[key] = append(this.values[key], value)
 }
 
 func (this *TimeMap) Get(key string, timestamp int) string {
-	data, ok := this.data[key]
-	if !ok {
-		return ""
-	}
+	times := this.timestamps[key]
+	vals := this.values[key]
 
-	i := sort.Search(len(data.timestamps), func(i int) bool { return data.timestamps[i] > timestamp }) - 1
+	i := sort.Search(len(times), func(i int) bool { return times[i] > timestamp }) - 1
 
 	if i < 0 {
 		return ""
 	}
 
-	return data.data[data.timestamps[i]]
+	return vals[i]
 }
