@@ -28,7 +28,7 @@
 - [ ] 🐢 [26. Remove Duplicates from Sorted Array](https://leetcode.com/problems/remove-duplicates-from-sorted-array/)
 - [ ] 🐢 [977. Squares of a Sorted Array](https://leetcode.com/problems/squares-of-a-sorted-array/)
 - [ ] 🌼 [15. 3Sum](https://leetcode.com/problems/3sum/)
-- [ ] 🌼 [16. 3Sum Closest](https://leetcode.com/problems/3sum-closest/)
+- [x] 🌼 [16. 3Sum Closest](https://leetcode.com/problems/3sum-closest/)
 - [ ] 🙉 [$$$ 3Sum Smaller](https://leetcode.com/problems/3sum-smaller/)
 - [ ] 🌼 [713. Subarry Product Less Than K](https://leetcode.com/problems/subarray-product-less-than-k/)
 - [ ] 🌼 [75. Sort Colors](https://leetcode.com/problems/sort-colors/)
