@@ -6,7 +6,7 @@
 - [ ] 🌼 [209. Minimum Size Subarray Sum](https://leetcode.com/problems/minimum-size-subarray-sum/)
 - [ ] 🙉 [$$$ Longest Substring With at Most K Distinct Characters](https://leetcode.com/problems/longest-substring-with-at-most-k-distinct-characters/)
 - [x] 🌼 [904. Fruit Into Baskets](https://leetcode.com/problems/fruit-into-baskets/)
-- [ ] 🌼 [3. Longest Substring Without Repeating Characters](https://leetcode.com/problems/longest-substring-without-repeating-characters/)
+- [x] 🌼 [3. Longest Substring Without Repeating Characters](https://leetcode.com/problems/longest-substring-without-repeating-characters/)
 - [ ] 🌼 [424. Longest Repeating Character Replacement](https://leetcode.com/problems/longest-repeating-character-replacement/)
 - [ ] 🌼 [1004. Max Consecutive Ones III](https://leetcode.com/problems/max-consecutive-ones-iii/)
 - [ ] 🌼 [567. Permutation in String](https://leetcode.com/problems/permutation-in-string/)
