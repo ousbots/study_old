@@ -31,7 +31,7 @@
 - [x] 🌼 [16. 3Sum Closest](https://leetcode.com/problems/3sum-closest/)
 - [ ] 🙉 [$$$ 3Sum Smaller](https://leetcode.com/problems/3sum-smaller/)
 - [ ] 🌼 [713. Subarry Product Less Than K](https://leetcode.com/problems/subarray-product-less-than-k/)
-- [ ] 🌼 [75. Sort Colors](https://leetcode.com/problems/sort-colors/)
+- [x] 🌼 [75. Sort Colors](https://leetcode.com/problems/sort-colors/)
 - [ ] 🌼 [18. 4Sum](https://leetcode.com/problems/4sum/)
 - [ ] 🐢 [844. Backspace String Compare](https://leetcode.com/problems/backspace-string-compare/)
 - [ ] 🌼 [581. Shortest Unsorted Continuous Subarry](https://leetcode.com/problems/shortest-unsorted-continuous-subarray/)
