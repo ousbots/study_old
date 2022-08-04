@@ -30,7 +30,7 @@
 - [ ] 🌼 [15. 3Sum](https://leetcode.com/problems/3sum/)
 - [x] 🌼 [16. 3Sum Closest](https://leetcode.com/problems/3sum-closest/)
 - [ ] 🙉 [$$$ 3Sum Smaller](https://leetcode.com/problems/3sum-smaller/)
-- [ ] 🌼 [713. Subarry Product Less Than K](https://leetcode.com/problems/subarray-product-less-than-k/)
+- [x] 🌼 [713. Subarry Product Less Than K](https://leetcode.com/problems/subarray-product-less-than-k/)
 - [x] 🌼 [75. Sort Colors](https://leetcode.com/problems/sort-colors/)
 - [x] 🌼 [18. 4Sum](https://leetcode.com/problems/4sum/)
 - [ ] 🐢 [844. Backspace String Compare](https://leetcode.com/problems/backspace-string-compare/)
