@@ -39,7 +39,7 @@
 ## Fast & Slow Pointers
 
 - [ ] 🐢 [141. Linked List Cycle](https://leetcode.com/problems/linked-list-cycle/)
-- [ ] 🌼 [142. Linked List Cycle II](https://leetcode.com/problems/linked-list-cycle-ii/)
+- [x] 🌼 [142. Linked List Cycle II](https://leetcode.com/problems/linked-list-cycle-ii/)
 - [ ] 🐢 [202. Happy Number](https://leetcode.com/problems/happy-number/)
 - [ ] 🐢 [876. Middle of the Linked List](https://leetcode.com/problems/middle-of-the-linked-list/)
 - [ ] 🐢 [234. Palindrome Linked List](https://leetcode.com/problems/palindrome-linked-list/)
