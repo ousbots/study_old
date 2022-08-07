@@ -2,6 +2,11 @@ package insert_interval
 
 import "sort"
 
+// Returns the merged intervals after inserting the new interval. The intervals in the given
+// slice are disjoint and sorted by intervals[i][0].
+//
+// This solution inserts the new interval into the existing slice of intervals, then sorts them
+// again. Next, each interval is compared to the previous one and merged if needed.
 func insert(intervals [][]int, newInterval []int) [][]int {
 	intervals = append(intervals, newInterval)
 	sort.Slice(intervals, func(i, j int) bool { return intervals[i][0] < intervals[j][0] })

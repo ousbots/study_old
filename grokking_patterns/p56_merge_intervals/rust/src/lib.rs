@@ -1,5 +1,11 @@
 pub struct Solution;
 impl Solution {
+    // Returns the vector of intervals with all overlapping intervals merged. The vector is not
+    // sorted, but each interval is (i.e. intervals[i][0] <= intervals[i][1])).
+    //
+    // This solutions first sorts the vector by the start of each interval, then checks each
+    // interval to see if it overlaps with the previous one. If it does, the two intervals are
+    // merged and added to the merged intervals. If it doesn't, the interval is added as-is.
     pub fn merge(intervals: Vec<Vec<i32>>) -> Vec<Vec<i32>> {
         let mut intervals = intervals;
         intervals.sort();
@@ -21,6 +27,7 @@ impl Solution {
         merged
     }
 
+    // Checks if the two vectors overlap.
     fn overlap(a: &Vec<i32>, b: &Vec<i32>) -> bool {
         let start = a[0].max(b[0]);
         let end = a[1].min(b[1]);

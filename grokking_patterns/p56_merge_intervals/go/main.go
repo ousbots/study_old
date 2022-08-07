@@ -2,6 +2,13 @@ package merge_interval
 
 import "sort"
 
+// Returns all the intervals with overlapping intervals merged. The slice is not sorted, but each
+// individual interval is (i.e. for intervals[i] intervals[i][0] <= intervals[i][1]).
+//
+// This solution first sorts the intervals slice by the first element in each element, then
+// iterates over the sorted intervals checking if the current interval overlaps with the current.
+// If they do overlap, they are merged and added to the slice of merged intervals. If not, the
+// current interval is added as-is.
 func merge(intervals [][]int) [][]int {
 	if len(intervals) == 0 {
 		return intervals
