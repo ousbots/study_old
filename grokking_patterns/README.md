@@ -43,12 +43,12 @@
 - [ ] 🐢 [202. Happy Number](https://leetcode.com/problems/happy-number/)
 - [ ] 🐢 [876. Middle of the Linked List](https://leetcode.com/problems/middle-of-the-linked-list/)
 - [ ] 🐢 [234. Palindrome Linked List](https://leetcode.com/problems/palindrome-linked-list/)
-- [ ] 🌼 [143. Reorder List](https://leetcode.com/problems/reorder-list/)
+- [x] 🌼 [143. Reorder List](https://leetcode.com/problems/reorder-list/)
 - [ ] 🌼 [457. Circular Array Loop](https://leetcode.com/problems/circular-array-loop/)
 
 ## Merge Intervals
 
-- [ ] 🌼 [56. Merge Intervals](https://leetcode.com/problems/merge-intervals/)
+- [x] 🌼 [56. Merge Intervals](https://leetcode.com/problems/merge-intervals/)
 - [ ] 🌼 [57. Insert Interval](https://leetcode.com/problems/insert-interval/)
 - [ ] 🌼 [986. Interval List Intersections](https://leetcode.com/problems/interval-list-intersections/)
 - [ ] 🙉 [$$$ Employee Free Time](https://leetcode.com/problems/employee-free-time/)
