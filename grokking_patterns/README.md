@@ -53,7 +53,7 @@
 - [x] 🌼 [986. Interval List Intersections](https://leetcode.com/problems/interval-list-intersections/)
 - [ ] 🙉 [$$$ Employee Free Time](https://leetcode.com/problems/employee-free-time/)
 - [ ] 🙉 [Crush](https://www.hackerrank.com/challenges/crush/problem)
-- [ ] 🌼 [1109. Corporate Flight Bookins](https://leetcode.com/problems/corporate-flight-bookings/)
+- [x] 🌼 [1109. Corporate Flight Bookins](https://leetcode.com/problems/corporate-flight-bookings/)
 - [ ] 🙉 [$$$ Meeting Rooms II](https://leetcode.com/problems/meeting-rooms-ii/)
 
 ## Cyclic Sort
