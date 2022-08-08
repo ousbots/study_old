@@ -61,7 +61,7 @@
 - [ ] 🐢 [Read discussion?](https://leetcode.com/problems/missing-number/discuss/859510/C%2B%2B-O[N]-O[1]-using-Cyclic-Sort)
 - [ ] 🐢 [268. Missing Number](https://leetcode.com/problems/missing-number/)
 - [ ] 🐢 [448. Find All Numbers Disappeared in an Array](https://leetcode.com/problems/find-all-numbers-disappeared-in-an-array/)
-- [ ] 🌼 [442. Find All Duplicates in an Array](https://leetcode.com/problems/find-all-duplicates-in-an-array/)
+- [x] 🌼 [442. Find All Duplicates in an Array](https://leetcode.com/problems/find-all-duplicates-in-an-array/)
 - [ ] 🌼 Combine (?) [287. Find the Duplicate Number](https://leetcode.com/problems/find-the-duplicate-number/) and [268. Missing Number](https://leetcode.com/problems/missing-number/)
 - [ ] 🐢 Supposedly the combination from above: [645. Set Mismatch](https://leetcode.com/problems/set-mismatch/)
 - [ ] 🔥 [41. First Missing Positive](https://leetcode.com/problems/first-missing-positive/)
