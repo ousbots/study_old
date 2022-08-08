@@ -45,6 +45,7 @@
 - [ ] 🐢 [234. Palindrome Linked List](https://leetcode.com/problems/palindrome-linked-list/)
 - [x] 🌼 [143. Reorder List](https://leetcode.com/problems/reorder-list/)
 - [ ] 🌼 [457. Circular Array Loop](https://leetcode.com/problems/circular-array-loop/)
+- [x] 🌼 [268. Missing Number](https://leetcode.com/problems/missing-number/)
 
 ## Merge Intervals
 
