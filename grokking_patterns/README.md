@@ -63,7 +63,7 @@
 - [ ] 🐢 [268. Missing Number](https://leetcode.com/problems/missing-number/)
 - [ ] 🐢 [448. Find All Numbers Disappeared in an Array](https://leetcode.com/problems/find-all-numbers-disappeared-in-an-array/)
 - [x] 🌼 [442. Find All Duplicates in an Array](https://leetcode.com/problems/find-all-duplicates-in-an-array/)
-- [ ] 🐢 [645. Set Mismatch](https://leetcode.com/problems/set-mismatch/)
+- [x] 🐢 [645. Set Mismatch](https://leetcode.com/problems/set-mismatch/)
 - [ ] 🔥 [41. First Missing Positive](https://leetcode.com/problems/first-missing-positive/)
 - [ ] 🐢 [1539. Kth Missing Positive Number](https://leetcode.com/problems/kth-missing-positive-number/)
 
