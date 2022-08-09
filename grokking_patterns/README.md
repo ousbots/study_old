@@ -81,7 +81,7 @@
 - [x] 🌼 [103. Binary Tree Zigzag Level Order Traversal](https://leetcode.com/problems/binary-tree-zigzag-level-order-traversal/)
 - [ ] 🐢 [111. Minimum Depth of Binary Tree](https://leetcode.com/problems/minimum-depth-of-binary-tree/)
 - [ ] 🙉 [$$$ Inorder Successor in BST](https://leetcode.com/problems/inorder-successor-in-bst/)
-- [ ] 🌼 [116. Populating Next Right Pointers in Each Node](https://leetcode.com/problems/populating-next-right-pointers-in-each-node/)
+- [x] 🌼 [116. Populating Next Right Pointers in Each Node](https://leetcode.com/problems/populating-next-right-pointers-in-each-node/)
 - [ ] 🌼 [199. Binary Tree Right Side View](https://leetcode.com/problems/binary-tree-right-side-view/)
 
 ## Tree Depth First Search
