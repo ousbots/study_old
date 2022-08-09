@@ -70,7 +70,7 @@
 ## In-place Reversal of a LinkedList
 
 - [ ] 🐢 [206. Reverse Linked List](https://leetcode.com/problems/reverse-linked-list/)
-- [ ] 🌼 [92. Reverse Linked List II](https://leetcode.com/problems/reverse-linked-list-ii/)
+- [x] 🌼 [92. Reverse Linked List II](https://leetcode.com/problems/reverse-linked-list-ii/)
 - [ ] 🔥 [25. Reverse Nodes in k-Group](https://leetcode.com/problems/reverse-nodes-in-k-group/)
 - [ ] 🌼 [61. Rotate List](https://leetcode.com/problems/rotate-list/)
 
