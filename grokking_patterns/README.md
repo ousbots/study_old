@@ -78,7 +78,7 @@
 
 - [ ] 🌼 [102. Binary Tree Level Order Traversal](https://leetcode.com/problems/binary-tree-level-order-traversal/)
 - [x] 🌼 [107. Binary Tree Level Order Traveral II](https://leetcode.com/problems/binary-tree-level-order-traversal-ii/)
-- [ ] 🌼 [103. Binary Tree Zigzag Level Order Traversal](https://leetcode.com/problems/binary-tree-zigzag-level-order-traversal/)
+- [x] 🌼 [103. Binary Tree Zigzag Level Order Traversal](https://leetcode.com/problems/binary-tree-zigzag-level-order-traversal/)
 - [ ] 🐢 [111. Minimum Depth of Binary Tree](https://leetcode.com/problems/minimum-depth-of-binary-tree/)
 - [ ] 🙉 [$$$ Inorder Successor in BST](https://leetcode.com/problems/inorder-successor-in-bst/)
 - [ ] 🌼 [116. Populating Next Right Pointers in Each Node](https://leetcode.com/problems/populating-next-right-pointers-in-each-node/)
